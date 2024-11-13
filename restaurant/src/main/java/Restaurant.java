@@ -47,7 +47,7 @@ public class Restaurant {
         }
 
         /**
-         *
+         * It does not take into account concurrency, for read and write operations at the time of booking.
          * There are no restaurant quota validations as only the reservation is made and the list of reservations per day is obtained
          */
         @POST
